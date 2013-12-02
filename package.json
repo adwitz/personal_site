@@ -1,0 +1,31 @@
+{
+  "name": "personal_site",
+  "version": "0.0.0",
+  "description": "Adam Witzel's Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adwitz/personal_site"
+  },
+  "keywords": [
+    "angular",
+    "spain"
+  ],
+  "author": "adam witzel",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/adwitz/personal_site/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-stylus": "~0.10.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
