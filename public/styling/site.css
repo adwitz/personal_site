@@ -3,6 +3,6 @@ body{height:100%;width:100%;font-family:'ArvoRegular',sans-serif;background:url(
 .info{margin:3% 3%;width:100%}
 header{font-size:3em;text-align:left}
 .subtitle{font-size:.5em;text-align:left}
-.links{position:absolute;bottom:0;width:100%;margin-right:20%;text-align:right}
+.links{position:absolute;bottom:0;right:3%;width:100%;text-align:right}
 .links div a{font-size:3em;text-decoration:none;color:#000}
 .links div{margin:5% 2%;display:inline-block}
