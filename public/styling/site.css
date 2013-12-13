@@ -1,8 +1,8 @@
-.content{position:relative;float:left;text-align:center;width:40%;margin:auto 0}
-body{height:100%;width:100%;font-family:'Karla',sans-serif;background:url("../../images/bretagne.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+@font-face{font-family:'ArvoRegular';src:url("../fonts/Arvo-Regular.ttf")}
+body{height:100%;width:100%;font-family:'ArvoRegular',sans-serif;background:url("../../images/bretagne.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
 .info{margin:3% 3%;width:100%}
 header{font-size:3em;text-align:left}
 .subtitle{font-size:.5em;text-align:left}
-.links{position:absolute;bottom:0;width:100%;padding-right:3%;text-align:right}
+.links{position:absolute;bottom:0;width:100%;margin-right:20%;text-align:right}
 .links div a{font-size:3em;text-decoration:none;color:#000}
 .links div{margin:5% 2%;display:inline-block}

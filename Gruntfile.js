@@ -65,16 +65,20 @@ module.exports = function(grunt) {
     // qunit: {
     //   files: ['test/**/*.html']
     // },
-    // watch: {
-    //   gruntfile: {
-    //     files: '<%= jshint.gruntfile.src %>',
-    //     tasks: ['jshint:gruntfile']
-    //   },
-    //   lib_test: {
-    //     files: '<%= jshint.lib_test.src %>',
-    //     tasks: ['jshint:lib_test', 'qunit']
-    //   }
-    // }
+    watch: {
+      // gruntfile: {
+      //   files: '<%= jshint.gruntfile.src %>',
+      //   tasks: ['jshint:gruntfile']
+      // },
+      stylus: {
+        files: '/public/styling/stylus/*.styl',
+        tasks: ['stylus']
+      }
+      // lib_test: {
+      //   files: '<%= jshint.lib_test.src %>',
+      //   tasks: ['jshint:lib_test', 'qunit']
+      // }
+    }
   });
 
   // These plugins provide necessary tasks.
