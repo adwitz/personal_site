@@ -7,20 +7,19 @@ var app = angular.module('app', ['ngRoute',
                                  // 'app.directives'
                                  ]);
 
-app.run(function($rootScope, $location){
+app.run(function($rootScope, $location, $templateCache){
   $rootScope.go = function(location){
     $location.path(location);
   };
+  $templateCache.put('about.html', '<div>All about Adam</div>');
+  $templateCache.put('projects.html', '<div>Here are my projects</div>');
 }).config(function ($routeProvider) {
   $routeProvider
-    .when('/', {
-      templateUrl: '../../index.html',
-    })
     .when('/about', {
-      templateUrl: '../partials/about.html',
+      templateUrl: 'about.html',
     })
     .when('/projects', {
-      templateUrl: '../partials/projects.html',
+      templateUrl: 'projects.html',
     })
     .otherwise({
       redirectTo: '/'
