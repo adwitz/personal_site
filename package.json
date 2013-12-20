@@ -27,5 +27,9 @@
     "grunt-contrib-qunit": "~0.3.0",
     "grunt-contrib-jshint": "~0.7.2",
     "grunt-contrib-watch": "~0.5.3"
+  },
+  "dependencies": {
+    "angular": "~1.2.2",
+    "bower": "~1.2.8"
   }
 }
