@@ -2,14 +2,21 @@
 <html>
   <head>
     <title>Adam Witzel</title>
+    <link href="public/styling/topcoat-desktop-light.min.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type="text/css">
     <link href="public/styling/site.css" rel="stylesheet">
     <link href="public/styling/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body ng-app="app">
     <div class="info">
       <header><div>Adam Witzel</div><div class="subtitle">Software Engineer</div></header>
     </div>
+    <div class="nav">
+      <button class="transparent" ng-click="go('/')">Home</button>
+      <button class="transparent" ng-click="go('/about')">About</button>
+      <button class="transparent" ng-click="go('/projects')">Projects</button>
+    </div>
+    <div ng-view ></div>
     <div class="links">
       <div>
         <a  href="https://medium.com/@adwitz">Blog</a>
@@ -21,7 +28,11 @@
         <a class="icon-linkedin2" href="http://www.linkedin.com/in/adamwitzel"></a>
       </div>
     </div>
-    <script src="bower_components/angular/lib/angular.min.js"></script>
-    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>\
+    <script src="public/scripts/app.js"></script>
+<!--     // <script src=""></script>
+    // <script src=""></script>
+    // <script src=""></script> -->
   </body>
 </html>
