@@ -9,14 +9,18 @@
   </head>
   <body ng-app="app">
     <div class="info">
-      <header><div>Adam Witzel</div><div class="subtitle">Software Engineer</div></header>
+      <header><div>Adam</div><div class="subtitle">Software Engineer</div></header>
     </div>
     <div class="nav">
-      <button class="transparent" ng-click="go('/')">Home</button>
       <button class="transparent" ng-click="go('/about')">About</button>
       <button class="transparent" ng-click="go('/projects')">Projects</button>
+      <button class="transparent" ng-click="go('/tech')">Tech</button>
+      <button class="transparent" ng-click="go('/where')">Where</button>
+      <div class="box">
+        <div ng-view ></div>
+      </div>
     </div>
-    <div ng-view ></div>
+    
     <div class="links">
       <div>
         <a  href="https://medium.com/@adwitz">Blog</a>
@@ -31,8 +35,5 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="public/scripts/app.js"></script>
-<!--     // <script src=""></script>
-    // <script src=""></script>
-    // <script src=""></script> -->
   </body>
 </html>
