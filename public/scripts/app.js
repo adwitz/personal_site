@@ -36,12 +36,15 @@ app.config(function ($routeProvider) {
                                       "To strive, to seek, to find and to meld tech with nature, art and travel." +
                                       "</p>" +
                                       "<p>" +
-                                      "I cover the full-stack and deftly build client-side apps." +
+                                      "I cover the full stack and deftly build client-side apps." +
                                       "</p>" +
                                     "</article>");
   $templateCache.put("projects.html", "<article class='descriptions'>" +
-                                        "<p><a class='projects' href='https://github.com/caracolrec/caracol'>Caracol</a> is an open source recommendation engine for long-form articles.</p>" +
-                                        "<p>I also built the front end of a mobile web app for a Bay Area seed-distribution company using AngularJS, Stylus and the Google Maps API.</p>" +
+                                        "<ul>" +
+                                          "<li>I worked with a team to build <a class='projects' href='https://github.com/caracolrec/caracol'>Caracol</a> is an open source recommendation engine for long-form articles.</li>" +
+                                          "<br/>" +
+                                          "<li>I also built the front end of a mobile web app for SeedTabs, a Bay Area seed-distribution company, using AngularJS, Stylus and the Google Maps API.</li>" +
+                                        "</ul>" +
                                       "</article>");
   $templateCache.put("tech.html", "<article class='descriptions'>" +
                                     "<div class='logos javascript'></div>" +
