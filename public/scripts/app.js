@@ -41,9 +41,9 @@ app.config(function ($routeProvider) {
                                     "</article>");
   $templateCache.put("projects.html", "<article class='descriptions'>" +
                                         "<ul>" +
-                                          "<li>I worked with a team to build <a class='projects' href='https://github.com/caracolrec/caracol'>Caracol</a> is an open source recommendation engine for long-form articles.</li>" +
+                                          "<li>worked with a team to build <a class='projects' href='https://github.com/caracolrec/caracol'>Caracol</a>, an open source recommendation engine for long-form articles.</li>" +
                                           "<br/>" +
-                                          "<li>I also built the front end of a mobile web app for SeedTabs, a Bay Area seed-distribution company, using AngularJS, Stylus and the Google Maps API.</li>" +
+                                          "<li>built the front end of a mobile web app for SeedTabs, a Bay Area seed-distribution company, using AngularJS, Stylus and the Google Maps API.</li>" +
                                         "</ul>" +
                                       "</article>");
   $templateCache.put("tech.html", "<article class='descriptions'>" +
