@@ -44,7 +44,6 @@ app.config(function ($routeProvider) {
                                         "<p>I also built the front end of a mobile web app for a Bay Area seed-distribution company using AngularJS, Stylus and the Google Maps API.</p>" +
                                       "</article>");
   $templateCache.put("tech.html", "<article class='descriptions'>" +
-                                    "<p class='tech'>A selection of the tools I use:</p>" +
                                     "<div class='logos javascript'></div>" +
                                     "<div class='logos node'></div>" +
                                     "<div class='logos angular'></div>" +
