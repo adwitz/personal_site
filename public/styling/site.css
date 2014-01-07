@@ -21,5 +21,3 @@ header{font-size:3em;text-align:left}
 .backbone{background-image:url("../../images/backbone.png");height:5em;width:5em}
 .postgres{background-image:url("../../images/postgresql.png");height:6em;width:6em}
 .stylus{background-image:url("../../images/stylus.png");background-color:#fff;text-align:center;height:5em;width:6em}
-.about{margin:0 5%;display:inline-block;width:auto}
-.about p{font-size:1.2em}
