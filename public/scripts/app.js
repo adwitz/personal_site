@@ -31,7 +31,7 @@ app.config(function ($routeProvider) {
       $location.path(location);
     }
   };
-  $templateCache.put('about.html', "<article class='descriptions'>" +
+  $templateCache.put("about.html", "<article class='descriptions'>" +
                                       "<p>" +
                                       "To strive, to seek, to find and to meld tech with nature, art and travel." +
                                       "</p>" +
@@ -41,6 +41,7 @@ app.config(function ($routeProvider) {
                                     "</article>");
   $templateCache.put("projects.html", "<article class='descriptions'>" +
                                         "<p><a class='projects' href='https://github.com/caracolrec/caracol'>Caracol</a> is an open source recommendation engine for long-form articles.</p>" +
+                                        "<p>I also built the front end of a mobile web app for a Bay Area seed-distribution company using AngularJS, Stylus and the Google Maps API.</p>" +
                                       "</article>");
   $templateCache.put("tech.html", "<article class='descriptions'>" +
                                     "<p class='tech'>A selection of the tools I use:</p>" +
@@ -53,6 +54,6 @@ app.config(function ($routeProvider) {
                                     // "<div class='logos mocha'></div>" +
                                     "</article>");
   $templateCache.put("where.html", "<article class='descriptions'>" +
-                                     "<p>Coming soon.</p>" +
+                                     "<p>Coming soon: a mapped web of my travels.</p>" +
                                     "</article>");
 });
