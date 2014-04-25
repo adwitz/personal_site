@@ -1,24 +1,2 @@
-a{text-decoration:none}
-@font-face{font-family:'ArvoRegular';src:url("../fonts/Arvo-Regular.ttf")}
-body{height:100%;width:100%;font-family:'ArvoRegular',sans-serif;background:url("../../images/bretagne.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
-.info{margin:3% 3%;width:auto;display:inline-block}
-header{font-size:3em;text-align:left}
-.subtitle{font-size:.5em;text-align:left}
-.links{position:absolute;bottom:0;right:3%;width:100%;text-align:right}
-.links div a{font-size:3em;text-decoration:none;color:#000}
-.links div{margin:5% 2%;display:inline-block}
-.nav{display:inline-block;position:absolute;top:0;right:0;width:auto;margin-top:3%;margin-right:10%;background-color:transparent;text-align:center}
-.nav button{background-color:transparent;padding:0 auto;margin:0 0;border:none;height:100%;font-family:'ArvoRegular',sans-serif;font-size:1.3em;font-weight:bold}
-.nav button:hover{color:#494d4d;font-size:1.32em}
-.box{text-align:left;height:auto;width:auto}
-.descriptions{position:absolute;display:inline-block;width:95%;font-size:1.05em;text-align:center}
-.descriptions p{font-size:1.05em;text-align:left;margin-left:3%}
-.descriptions li{font-size:1.05em;text-align:left;margin-left:3%}
-.projects{font-weight:bold;color:#000}
-.logos{position:relative;display:inline-block;background-size:contain;background-repeat:no-repeat;text-align:center;margin:2% 2%}
-.javascript{background-image:url("../../images/javascript.jpg");height:5em;width:5em}
-.node{background-image:url("../../images/nodejs.png");height:5em;width:8em}
-.angular{background-image:url("../../images/angular.png");height:5em;width:5em}
-.backbone{background-image:url("../../images/backbone.png");height:5em;width:5em}
-.postgres{background-image:url("../../images/postgresql.png");height:6em;width:6em}
-.stylus{background-image:url("../../images/stylus.png");background-color:#fff;text-align:center;height:5em;width:6em}
+.background{position:fixed;top:-50%;left:-50%;min-height:200%;min-width:200%}
+.background img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;min-width:50%;min-height:50%}
